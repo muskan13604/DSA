@@ -2,6 +2,8 @@ class Solution {
 public:
 
     int minimumPathSum(int i, int j, int m, int n, vector<vector<int>>& grid,vector<vector<int>>& dp){
+        vector<int> prev(n, 0);
+        vector<int> curr(n, 0);
         //base case
         // if(i==0&&j==0){
         //     return grid[i][j];
@@ -19,22 +21,23 @@ public:
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
                 if(i==0&&j==0){
-                    dp[0][0] = grid[0][0];
+                    curr[0] = grid[0][0];
                 }
                 else{
                     int up=1e9;
                     if(i>0){
-                        up=grid[i][j]+dp[i-1][j];
+                        up=grid[i][j]+prev[j];
                     }
                     int left=1e9;
                     if(j>0){
-                        left=grid[i][j]+dp[i][j-1];
+                        left=grid[i][j]+curr[j-1];
                     }
-                    dp[i][j]=min(up,left);
+                    curr[j]=min(up,left);
                 }
             }
+            prev=curr;
         }
-        return dp[m-1][n-1];
+        return prev[n-1];
 
         // if(dp[i][j]!=-1){
         //     return dp[i][j];  //s-3
