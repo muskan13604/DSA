@@ -9,8 +9,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/muskan13604/DSA/tree/master/0064-minimum-path-sum) |
+| [1143-longest-common-subsequence](https://github.com/muskan13604/DSA/tree/master/1143-longest-common-subsequence) |
 ## Matrix
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/muskan13604/DSA/tree/master/0064-minimum-path-sum) |
+## String
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/muskan13604/DSA/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
