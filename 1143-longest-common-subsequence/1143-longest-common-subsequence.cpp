@@ -1,36 +1,81 @@
 class Solution {
 public:
 
-    int lcs(int i, int j, string &text1, string &text2,
-            vector<vector<int>> &dp) {
+int lcs(int i, int j, int m, int n, string &text1,
+            string &text2, vector<vector<int>> &dp) {
 
-        // Base case
-        if (i < 0 || j < 0)
-            return 0;
+                 // Base case
+        // if (i < 0 || j < 0)
+        //     return 0;
 
         // DP check
-        if (dp[i][j] != -1)
-            return dp[i][j];
+        // if (dp[i][j] != -1)
+        //     return dp[i][j];
 
-        // Match
-        if (text1[i] == text2[j]) {
-            return dp[i][j] = 1 + lcs(i - 1, j - 1, text1, text2, dp);
+
+
+        // Traverse the entire DP table
+        for (int i = 0; i < m; i++) {
+
+            for (int j = 0; j < n; j++) {
+
+                // If characters match
+                if (text1[i] == text2[j]) {
+
+                    int a = 0;
+
+                    // Take diagonal value if it exists
+                    if (i > 0 && j > 0) {
+                        a = dp[i - 1][j - 1];
+                    }
+
+                    dp[i][j] = 1 + a;
+                }
+
+                // If characters do not match
+                else {
+
+                    int b = 0;
+                    int c = 0;
+
+                    // Left value
+                    if (j > 0) {
+                        b = dp[i][j - 1];
+                    }
+
+                    // Upper value
+                    if (i > 0) {
+                        c = dp[i - 1][j];
+                    }
+
+                    dp[i][j] = max(b, c);
+                }
+            }
         }
 
+         // // Match
+        // if (text1[i] == text2[j]) {
+        //     return dp[i][j] = 1 + lcs(i - 1, j - 1, text1, text2, dp);
+        // }
+
         // Not Match
-        return dp[i][j] = max(
-            lcs(i - 1, j, text1, text2, dp),
-            lcs(i, j - 1, text1, text2, dp)
-        );
+        // return dp[i][j] = max( lcs(i - 1, j, text1, text2, dp), lcs(i, j - 1, text1, text2, dp)
+        // );
+    
+
+        // Final answer
+        return dp[m - 1][n - 1];
     }
 
-    int longestCommonSubsequence(string text1, string text2) {
+       
+int longestCommonSubsequence(string text1, string text2) {
 
         int m = text1.size();
         int n = text2.size();
 
-        vector<vector<int>> dp(m, vector<int>(n, -1));
+        // DP table initialized with 0
+        vector<vector<int>> dp(m, vector<int>(n, 0));
 
-        return lcs(m - 1, n - 1, text1, text2, dp);
+        return lcs(m - 1, n - 1, m, n, text1, text2, dp);
     }
 };
