@@ -3,6 +3,10 @@ public:
 
 int lcs(int i, int j, int m, int n, string &text1,
             string &text2, vector<vector<int>> &dp) {
+        
+        //for space optimize
+        vector<int> prev(n + 1, 0);
+        vector<int> curr(n + 1, 0);
 
                  // Base case
         // if (i < 0 || j < 0)
@@ -26,10 +30,10 @@ int lcs(int i, int j, int m, int n, string &text1,
 
                     // Take diagonal value if it exists
                     if (i > 0 && j > 0) {
-                        a = dp[i - 1][j - 1];
+                        a = prev[j - 1];
                     }
 
-                    dp[i][j] = 1 + a;
+                    curr[j] = 1 + a;
                 }
 
                 // If characters do not match
@@ -40,17 +44,18 @@ int lcs(int i, int j, int m, int n, string &text1,
 
                     // Left value
                     if (j > 0) {
-                        b = dp[i][j - 1];
+                        b = curr[j - 1];
                     }
 
                     // Upper value
                     if (i > 0) {
-                        c = dp[i - 1][j];
+                        c = prev[j];
                     }
 
-                    dp[i][j] = max(b, c);
+                    curr[j] = max(b, c);
                 }
             }
+             prev = curr;
         }
 
          // // Match
@@ -64,7 +69,7 @@ int lcs(int i, int j, int m, int n, string &text1,
     
 
         // Final answer
-        return dp[m - 1][n - 1];
+        return prev[n - 1];
     }
 
        
