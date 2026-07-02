@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/muskan13604/DSA/tree/master/0064-minimum-path-sum) |
 | [0136-single-number](https://github.com/muskan13604/DSA/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/muskan13604/DSA/tree/master/0137-single-number-ii) |
+| [0240-search-a-2d-matrix-ii](https://github.com/muskan13604/DSA/tree/master/0240-search-a-2d-matrix-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/muskan13604/DSA/tree/master/0064-minimum-path-sum) |
+| [0240-search-a-2d-matrix-ii](https://github.com/muskan13604/DSA/tree/master/0240-search-a-2d-matrix-ii) |
 ## String
 |  |
 | ------- |
@@ -34,4 +36,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/muskan13604/DSA/tree/master/0191-number-of-1-bits) |
+| [0240-search-a-2d-matrix-ii](https://github.com/muskan13604/DSA/tree/master/0240-search-a-2d-matrix-ii) |
+## Binary Search
+|  |
+| ------- |
+| [0240-search-a-2d-matrix-ii](https://github.com/muskan13604/DSA/tree/master/0240-search-a-2d-matrix-ii) |
 <!---LeetCode Topics End-->
