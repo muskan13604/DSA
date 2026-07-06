@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/muskan13604/DSA/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/muskan13604/DSA/tree/master/0137-single-number-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/muskan13604/DSA/tree/master/0240-search-a-2d-matrix-ii) |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/muskan13604/DSA/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0240-search-a-2d-matrix-ii](https://github.com/muskan13604/DSA/tree/master/0240-search-a-2d-matrix-ii) |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/muskan13604/DSA/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 ## Backtracking
 |  |
 | ------- |
