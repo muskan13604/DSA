@@ -77,10 +77,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/muskan13604/DSA/tree/master/0102-binary-tree-level-order-traversal) |
+| [0207-course-schedule](https://github.com/muskan13604/DSA/tree/master/0207-course-schedule) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/muskan13604/DSA/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/muskan13604/DSA/tree/master/0099-recover-binary-search-tree) |
+| [0207-course-schedule](https://github.com/muskan13604/DSA/tree/master/0207-course-schedule) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/muskan13604/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Graph Theory
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/muskan13604/DSA/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/muskan13604/DSA/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
