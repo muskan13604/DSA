@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0051-n-queens](https://github.com/muskan13604/DSA/tree/master/0051-n-queens) |
 | [0064-minimum-path-sum](https://github.com/muskan13604/DSA/tree/master/0064-minimum-path-sum) |
 | [0136-single-number](https://github.com/muskan13604/DSA/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/muskan13604/DSA/tree/master/0137-single-number-ii) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0051-n-queens](https://github.com/muskan13604/DSA/tree/master/0051-n-queens) |
 | [0095-unique-binary-search-trees-ii](https://github.com/muskan13604/DSA/tree/master/0095-unique-binary-search-trees-ii) |
 ## Tree
 |  |
