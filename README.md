@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0240-search-a-2d-matrix-ii](https://github.com/muskan13604/DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0875-koko-eating-bananas](https://github.com/muskan13604/DSA/tree/master/0875-koko-eating-bananas) |
+| [0878-nth-magical-number](https://github.com/muskan13604/DSA/tree/master/0878-nth-magical-number) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/muskan13604/DSA/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 ## Backtracking
 |  |
@@ -98,4 +99,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/muskan13604/DSA/tree/master/0207-course-schedule) |
+## Math
+|  |
+| ------- |
+| [0878-nth-magical-number](https://github.com/muskan13604/DSA/tree/master/0878-nth-magical-number) |
 <!---LeetCode Topics End-->
