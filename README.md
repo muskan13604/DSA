@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0516-longest-palindromic-subsequence](https://github.com/muskan13604/DSA/tree/master/0516-longest-palindromic-subsequence) |
+| [0880-decoded-string-at-index](https://github.com/muskan13604/DSA/tree/master/0880-decoded-string-at-index) |
 | [1143-longest-common-subsequence](https://github.com/muskan13604/DSA/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/muskan13604/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Bit Manipulation
@@ -103,4 +104,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0878-nth-magical-number](https://github.com/muskan13604/DSA/tree/master/0878-nth-magical-number) |
+## Stack
+|  |
+| ------- |
+| [0880-decoded-string-at-index](https://github.com/muskan13604/DSA/tree/master/0880-decoded-string-at-index) |
 <!---LeetCode Topics End-->
