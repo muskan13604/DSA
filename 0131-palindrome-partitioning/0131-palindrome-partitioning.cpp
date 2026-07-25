@@ -18,9 +18,9 @@ class Solution {
                     currentPath.push_back(s.substr(start, end - start + 1));
                     backtrack(s, end + 1, currentPath, result);
                     currentPath.pop_back();
-                }
-                }
-                }
+         }
+     }
+}
                 bool isPalindrome(const string& s, int low, int high) {
                     while (low < high) {
                         if (s[low] != s[high]) {
@@ -30,6 +30,6 @@ class Solution {
                             high--;
                             }
                             return true;
-                            }
+                 }
 };
                        
